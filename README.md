@@ -32,10 +32,13 @@ This repository provides the **official implementation**, trained weights, evalu
 
 ## 🖼️ Graphical Abstract
 
-*(Insert your GA here, e.g.)*  
-![Graphical Abstract](./assets/graphic_abstract.png)
+![Graphical Abstract](./graphic_abstract.png)
 
 ---
 
 ## 🏗️ Repository Structure
+
+---
+
+## 🚀 Quick Start
 
