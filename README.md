@@ -30,7 +30,7 @@ This repository provides the **official implementation**, trained weights, evalu
 
 ---
 
-## 🖼️ Graphical Abstract
+## Graphical Abstract
 
 ![Graphical Abstract](./graphic_abstract.png)
 
@@ -141,6 +141,9 @@ def crop_to_bbox(data: np.ndarray, bbox: tuple):
     return data[tuple(slicer)]
 ```
 
+### 5.Model Weight
+https://drive.google.com/drive/folders/1wryqjFYxJWICmlAr8RyoMpoVsnbw85Wg?usp=sharing
+
 ---
 
 ## Start Inference
@@ -157,6 +160,8 @@ python /function/from_stage2/run_msp.py
 
 ## Data Availability
 The internal test set analysed during the current study and used for benchmarking, has been de-identified and made publicly accessible for research purposes. The dataset is available at: https://doi.org/10.5281/zenodo.17705417. Due to institutional regulations, patient privacy considerations and restriction by ethical approvals, patient soft tissue information (including facial features that could readily identify the individual) should be excluded, so the original CT files cannot be released. However, we have strived to strike a balance between scientific data open and ethical constraints by releasing the 3D skull data, the AGR-processed mesh files, and the mid-sagittal plane used during the actual surgery under ethical approval.The external public dataset (RTOG) used in this study is pubic available at: https://www.imagenglab.com/newsite/pddca/.
+
+---
 
 ## Reference and Acknowledgment:
 [1] OpenPoints Framework: Qian, G. et al. PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies. Preprint at https://doi.org/10.48550/arXiv.2206.04670 (2022).
