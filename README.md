@@ -32,7 +32,7 @@ This repository provides the **official implementation**, trained weights, evalu
 
 ## Graphical Abstract
 
-![Graphical Abstract](./graphic_abstract.png)
+![Graphical Abstract](./graphic_abstract.jpg)
 
 ---
 
