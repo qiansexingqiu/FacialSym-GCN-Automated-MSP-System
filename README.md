@@ -5,7 +5,7 @@ Open-Source Implementation, Multicenter Evaluation, and Prospective Surgical Val
 
 ---
 
-## 🧭 Overview
+## Overview
 
 FacialSym-GCN is a fully automated deep learning framework for constructing the midsagittal plane (MSP) directly from computed tomography (CT) data.  
 It integrates:
@@ -19,7 +19,7 @@ This repository provides the **official implementation**, trained weights, evalu
 
 ---
 
-## 📌 Key Features
+## Key Features
 
 - ✔ **Fully automated MSP construction**
 - ✔ **Direct-from-CT processing (no landmarks needed)**
@@ -36,7 +36,7 @@ This repository provides the **official implementation**, trained weights, evalu
 
 ---
 
-## 🏗️ Setup
+## Setup
 
 ### 1.Environment Setup
 We recommend creating a clean conda environment:
@@ -143,13 +143,28 @@ def crop_to_bbox(data: np.ndarray, bbox: tuple):
 
 ---
 
-## 🚀 start inference MSP
-If you want to inference MSP direct from CT, please run follow code:
+## Start Inference
+If you want to inference MSP direct from CT, please check follow code, modify code containing comments and run it:
 ```
 python /function/from_stage1/run_msp.py
 ```
-If you want to inference MSP starting from stage 2, please run follow code:
+If you want to inference MSP starting from stage 2, please check follow code, modify code containing comments and run it:
 ```
 python /function/from_stage2/run_msp.py
 ```
+
+---
+
+## Data Availability
+The internal test set analysed during the current study and used for benchmarking, has been de-identified and made publicly accessible for research purposes. The dataset is available at: https://doi.org/10.5281/zenodo.17705417. Due to institutional regulations, patient privacy considerations and restriction by ethical approvals, patient soft tissue information (including facial features that could readily identify the individual) should be excluded, so the original CT files cannot be released. However, we have strived to strike a balance between scientific data open and ethical constraints by releasing the 3D skull data, the AGR-processed mesh files, and the mid-sagittal plane used during the actual surgery under ethical approval.The external public dataset (RTOG) used in this study is pubic available at: https://www.imagenglab.com/newsite/pddca/.
+
+## Reference and Acknowledgment:
+[1] OpenPoints Framework: Qian, G. et al. PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies. Preprint at https://doi.org/10.48550/arXiv.2206.04670 (2022).
+
+[2] DeepGCN: Li, G., Müller, M., Thabet, A. & Ghanem, B. DeepGCNs: Can GCNs Go as Deep as CNNs? Preprint at https://doi.org/10.48550/arXiv.1904.03751 (2019).
+
+[3] DentalSegmentator: Dot, G. et al. DentalSegmentator: Robust open source deep learning-based CT and CBCT image segmentation. J. Dent. 147, 105130 (2024).
+
+[4] nnU-Net: Isensee, F., Jaeger, P. F., Kohl, S. A. A., Petersen, J. & Maier-Hein, K. H. nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nat. Methods 18, 203–211 (2021).
+
 
