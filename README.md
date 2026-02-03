@@ -1,7 +1,7 @@
 # FacialSym-GCN: Automated Midsagittal Plane Construction for Digital Surgical Planning  
 **Open-source implementation of the MSP system described in:**  
-Tao et al., *Real-world clinical performance of Automated Midsagittal Plane System for Digital Surgical Planning:  
-Open-Source Implementation, Multicenter Evaluation, and Prospective Surgical Validation* (2025)
+*Clinical Translation of Automated Midsagittal Plane System for Digital Surgical Planning:  
+Open-Source Implementation, Multicenter Evaluation, and Prospective Surgical Validation* (2026)
 
 ---
 
