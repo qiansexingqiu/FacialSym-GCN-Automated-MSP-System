@@ -1,6 +1,6 @@
 # FacialSym-GCN: Automated Midsagittal Plane Construction for Digital Surgical Planning  
 **Open-source implementation of the MSP system described in:**  
-*Deep Learning-based Midsagittal Plane Construction in Craniomaxillofacial CT* (2026)
+*Deep Learning-based Midsagittal Plane Construction System in Craniomaxillofacial CT* (2026)
 
 ---
 
